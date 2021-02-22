@@ -1,0 +1,12 @@
+<!--components/swiper/my-swiper.wxml-->
+<view class="page-section page-section-spacing swiper">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{dataList}}" wx:key="*this">
+      <swiper-item>
+        <view>
+          <image mode="scaleToFill" src="{{item}}"/>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

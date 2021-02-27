@@ -1,11 +1,11 @@
 <!--components/swiper/my-swiper.wxml-->
 <view class="page-section page-section-spacing swiper">
-  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" previous-margin="0px" next-margin="0px">
     <block wx:for="{{dataList}}" wx:key="*this">
-      <swiper-item>
-        <view>
+      <swiper-item style="background-image: url('{{item}}');background-size:100% 100%;">
+        <!-- <view>
           <image mode="scaleToFill" src="{{item}}"/>
-        </view>
+        </view> -->
       </swiper-item>
     </block>
   </swiper>

@@ -1,2 +1,18 @@
-<!--pages/partition/partition.wxml-->
-<text>pages/partition/partition.wxml</text>
+<view class="page" data-weui-theme="{{theme}}">
+  <view>
+    <mp-row class="row">
+      <view>
+        <mp-col class="col" span="{{6}}" wx:for="{{list}}" wx:key="iconName">
+          <navigator url="{{item.url}}" hover-class="navigator-hover">
+            <view class="col">
+              <view>
+                <iconfont name="{{item.iconName}}" color="black" size="30"></iconfont>
+                <view class="title">{{item.title}}</view>
+              </view>
+            </view>
+          </navigator>
+        </mp-col>
+      </view>
+    </mp-row>
+  </view>
+</view>

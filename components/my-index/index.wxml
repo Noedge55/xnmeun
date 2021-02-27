@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<mp-searchbar class="searchBar" bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+<view wx:if="{{isShowBanner}}">
+  <my-swiper class="banner" dataList="{{bannerUrlList}}"></my-swiper>
+</view>
+<my-tabs class="myTabs" tabs="{{tabs}}" activeTab="{{activeTab}}" swiperClass="weui-tabs-swiper" bindtabclick="tabclick"
+  bindchange="change" activeClass="tab-bar-title__selected" swiperStyle="height: {{tabSwiperHeight}}px">
+  <block wx:for="{{tabs}}" wx:key="title" wx:for-item="item">
+    <view class="tab-content" slot="tab-content-{{index}}">
+      <scroll-view scroll-y="true" style="height:{{tabSwiperHeight}}px">
+        <my-panel dataList="{{item.contentList}}" isShowImg="{{item.isShowImg}}"></my-panel>
+      </scroll-view>
+    </view>
+  </block>
+</my-tabs>

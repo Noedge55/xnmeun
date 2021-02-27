@@ -1,0 +1,1 @@
+<my-index tabs="{{tabs}}" isShowBanner="{{false}}"></my-index>

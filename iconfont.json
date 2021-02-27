@@ -1,7 +1,7 @@
 {
-    "symbol_url": "//at.alicdn.com/t/font_2378391_cw7g4cz6bf9.js",
+    "symbol_url": "//at.alicdn.com/t/font_2378391_tz6ngrmkc4g.js",
     "save_dir": "./iconfont",
     "use_rpx": false,
-    "trim_icon_prefix": "icon",
-    "default_icon_size": 18
+    "trim_icon_prefix": "icon-",
+    "default_icon_size": 40
 }

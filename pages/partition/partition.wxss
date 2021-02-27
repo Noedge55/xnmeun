@@ -1,1 +1,8 @@
 /* pages/partition/partition.wxss */
+.title {
+  text-align: center;
+}
+
+.col {
+  margin-bottom: 20px;
+}

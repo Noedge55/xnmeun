@@ -1,0 +1,32 @@
+/* components/my-index/index.wxss */
+/**index.wxss**/
+
+@import '/common/common.wxss';
+
+.weui-tabs-bar__wrp {
+    border-bottom: 1px solid #eee;
+    margin-top: 10px;
+}
+
+.tab-content {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.weui-tabs-bar__title {
+    margin: 0px 10px;
+}
+
+.tab-bar-title__selected {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+swiper-item {
+  height: 100%;
+}
+
+
+
+

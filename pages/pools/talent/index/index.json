@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-index": "/components/my-index"
+  },
+  "navigationBarTitleText": "人才库"
+}

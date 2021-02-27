@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-swiper": "/components/my-swiper/my-swiper",
+    "my-tabs": "/components/my-tabs",
+    "my-panel":"/components/my-panel/my-panel"
+  }
+}

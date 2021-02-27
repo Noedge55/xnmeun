@@ -1,0 +1,2 @@
+<!--pages/enterprise/index/index.wxml-->
+<my-index bannerUrlList="{{bannerUrlList}}" tabs="{{tabs}}"></my-index>

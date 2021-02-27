@@ -1,0 +1,28 @@
+{
+  "name": "xnmeun",
+  "version": "1.0.0",
+  "description": "信息共享平台微信小程序",
+  "main": "app.js",
+  "dependencies": {
+    "@miniprogram-component-plus/col": "^1.0.0",
+    "@miniprogram-component-plus/row": "^1.0.0",
+    "@miniprogram-component-plus/tabs": "^1.0.0",
+    "weui-miniprogram": "^1.0.7"
+  },
+  "devDependencies": {
+    "mini-program-iconfont-cli": "^0.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noedge55/xnmeun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noedge55/xnmeun/issues"
+  },
+  "homepage": "https://github.com/Noedge55/xnmeun#readme"
+}

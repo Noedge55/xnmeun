@@ -5,7 +5,35 @@ Page({
    * 页面的初始数据
    */
   data: {
+    list: [
+      {
+        iconName: 'qiye',
+        title: '企业库',
+        url: '/pages/pools/enterprise/index/index'
+      }, {
+        iconName: 'xuqiu1',
+        title: '需求库',
+        url: '/pages/pools/demand/index/index'
+      }, {
+        iconName: 'chanpin',
+        title: '产品库',
+        url: '/pages/pools/product/index/index'
+      }, {
+        iconName: 'talents',
+        title: '人才库',
+        url: '/pages/pools/talent/index/index'
+      }, {
+        iconName: 'shenqing',
+        title: '申请入驻'
+      }, {
+        iconName: 'fabu',
+        title: '发布'
+      }
+    ],
+  },
 
+  handleTap(e) {
+    console.info(e)
   },
 
   /**
@@ -25,9 +53,7 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
-
-  },
+  onShow: function () {},
 
   /**
    * 生命周期函数--监听页面隐藏

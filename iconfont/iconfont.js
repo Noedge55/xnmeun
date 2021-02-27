@@ -1,6 +1,6 @@
 Component({
   properties: {
-    // gallery-view | user-circle | icon-drag | home
+    // talents | xuqiu1 | chanpin | fabu | shenqing | qiye | gallery-view | user-circle | icon-drag | home
     name: {
       type: String,
     },
@@ -16,7 +16,7 @@ Component({
     },
     size: {
       type: Number,
-      value: 18,
+      value: 40,
       observer: function(size) {
         this.setData({
           svgSize: size,
@@ -26,7 +26,7 @@ Component({
   },
   data: {
     colors: '',
-    svgSize: 18,
+    svgSize: 40,
     quot: '"',
     isStr: true,
   },

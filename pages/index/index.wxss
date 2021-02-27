@@ -1,24 +1,35 @@
 /**index.wxss**/
+
+@import '/common/common.wxss';
+
+page{
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+.weui-tabs-bar__wrp {
+    border-bottom: 1px solid #eee;
+    margin-top: 10px;
+}
+
+.tab-content {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.weui-tabs-bar__title {
+    margin: 0px 10px;
+}
+
+.tab-bar-title__selected {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 swiper-item {
-  text-align: center
-}
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100%;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
 
-.userinfo-nickname {
-  color: #aaa;
-}
 
-.usermotto {
-  margin-top: 200px;
-}
